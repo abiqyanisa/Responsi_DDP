@@ -18,11 +18,11 @@ int main(){
 	string telepon;
 	
 	//input
-	cout<<"Nama		    : ";
+	cout<<"Nama		: ";
 	getline(cin,nama);
-	cout<<"Alamat		  : ";
+	cout<<"Alamat		: ";
 	getline(cin,alamat);
-	cout<<"Email		  : ";
+	cout<<"Email		: ";
 	getline(cin,email);
 	cout<<"No telepon	: ";
 	getline(cin,telepon);
@@ -33,11 +33,11 @@ int main(){
 	
 	//output
 	cout<<"Data Pelanggan Toko Sembako\n"<<endl;
-  cout<<"---------------------------\n"<<endl;
-	cout<<"Nama Pelanggan		    : "<<nama<<endl;
+  	cout<<"---------------------------\n"<<endl;
+	cout<<"Nama Pelanggan	    : "<<nama<<endl;
 	cout<<"Alamat Pelanggan	    : "<<alamat<<endl;
-	cout<<"Email Pelanggan		  : "<<email<<endl;
-	cout<<"No Telepon Pelanggan	: "<<telepon<<endl;
+	cout<<"Email Pelanggan	    : "<<email<<endl;
+	cout<<"No Telepon Pelanggan : "<<telepon<<endl;
 	
 	getch();
 }
